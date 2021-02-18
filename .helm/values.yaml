@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  name: "kmdr7/bliblimart-frontend"
+  name: "taufiq12/apps-blimart-frontend"
 app:
   namespace: "bliblimart"
   port: 80
