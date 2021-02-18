@@ -1,0 +1,9 @@
+replicaCount: 1
+image:
+  name: "kmdr7/bliblimart-frontend"
+app:
+  namespace: "bliblimart"
+  port: 80
+  ingress:
+    enable: true
+    host: "local.blimart.com"
